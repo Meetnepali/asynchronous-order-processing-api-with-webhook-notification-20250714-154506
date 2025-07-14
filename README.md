@@ -25,13 +25,7 @@ Develop a FastAPI application that provides endpoints for placing and retrieving
 2. **Environment variables:**
    - Copy `.env.example` to `.env` and update `WEBHOOK_URL` as needed, or export variables before startup.
 
-3. **Install dependencies and initialize:**
-   - Run: `bash install.sh`
-
-4. **Run the FastAPI service:**
-   - Run: `bash run.sh`
-
-5. **Verify your implementation:**
+3. **Verify your implementation:**
    - The service starts on [http://localhost:8000](http://localhost:8000)
    - Visit `/docs` for interactive API documentation and try placing/retrieving orders.
    - After placing an order, confirm webhook POST request is sent to the configured webhook URL.
